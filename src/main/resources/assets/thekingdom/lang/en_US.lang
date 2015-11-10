@@ -1,0 +1,20 @@
+< en_US.lang - English localization file for the mod Tutorial >
+item.tutorial_item.name=Tutorial Item
+tile.tutorial_block.name=Tutorial Block
+
+tile.marble_white.name=White Marble
+tile.marble_orange.name=Orange Marble
+tile.marble_magenta.name=Magenta Marble
+tile.marble_lt_blue.name=Light Blue Marble
+tile.marble_yellow.name=Yellow Marble
+tile.marble_lime.name=Lime Marble
+tile.marble_pink.name=Pink Marble
+tile.marble_gray.name=Gray Marble
+tile.marble_silver.name=Silver Marble
+tile.marble_cyan.name=Cyan Marble
+tile.marble_purple.name=Purple Marble
+tile.marble_blue.name=Blue Marble
+tile.marble_brown.name=Brown Marble
+tile.marble_green.name=Green Marble
+tile.marble_red.name=Red Marble
+tile.marble_black.name=Black Marble
