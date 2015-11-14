@@ -1,6 +1,28 @@
 < en_US.lang - English localization file for the mod Tutorial >
-item.tutorial_item.name=Tutorial Item
-tile.tutorial_block.name=Tutorial Block
+
+item.copper_ingot.name=Copper Ingot
+item.amethyst_gem.name=Amethyst
+item.aquamarine_gem.name=Aquamarine
+item.scarlet_emerald_gem.name=Scarlet Emerald
+
+tile.beryl_ore.name=Beryl Ore
+tile.bornite_ore.name=Bornite Ore
+tile.amethyst_ore.name=Amethyst Ore
+
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_axe.name=Copper Axe
+item.copper_hoe.name=Copper Hoe
+item.copper_spade.name=Copper Spade
+item.copper_sword.name=Copper Sword
+item.flint_tool.name=Primitive Tool
+
+item.copper_helmet.name=Copper Helmet
+item.copper_chestplate.name=Copper Chestplate
+item.copper_leggings.name=Copper Leggings
+item.copper_boots.name=Copper Boots
+
+item.cured_beef.name=Cured Beef
+item.cured_pork.name=Cured Pork
 
 tile.marble_white.name=White Marble
 tile.marble_orange.name=Orange Marble

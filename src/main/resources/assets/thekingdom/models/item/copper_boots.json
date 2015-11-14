@@ -1,0 +1,6 @@
+{
+  "parent":"thekingdom:item/core_item",
+  "textures": {
+    "layer0":"thekingdom:items/copper_boots"
+  }
+}

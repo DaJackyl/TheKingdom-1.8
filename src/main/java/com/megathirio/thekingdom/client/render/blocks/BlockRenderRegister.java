@@ -1,11 +1,9 @@
 package com.megathirio.thekingdom.client.render.blocks;
 
 import com.megathirio.thekingdom.blocks.ModBlocks;
-import com.megathirio.thekingdom.items.ModItems;
 import com.megathirio.thekingdom.reference.Core;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.resources.model.ModelBakery;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 
@@ -17,7 +15,9 @@ public class BlockRenderRegister {
     public static String modid = Core.MOD_ID;
 
     public static void registerBlockRenderer() {
-        reg(ModBlocks.tutorialBlock);
+        reg(ModBlocks.borniteOre);
+        reg(ModBlocks.berylOre);
+        reg(ModBlocks.amethystOre);
     }
 
     public static void reg(Block block) {
