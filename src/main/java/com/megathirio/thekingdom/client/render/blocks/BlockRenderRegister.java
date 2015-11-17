@@ -18,6 +18,7 @@ public class BlockRenderRegister {
         reg(ModBlocks.borniteOre);
         reg(ModBlocks.berylOre);
         reg(ModBlocks.amethystOre);
+        reg(ModBlocks.teBlock);
     }
 
     public static void reg(Block block) {

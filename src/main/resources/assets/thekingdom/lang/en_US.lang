@@ -1,5 +1,8 @@
 < en_US.lang - English localization file for the mod Tutorial >
 
+container.tutorial_tile_entity=Test TE
+tile.te_block.name=Test TE
+
 item.copper_ingot.name=Copper Ingot
 item.amethyst_gem.name=Amethyst
 item.aquamarine_gem.name=Aquamarine
