@@ -1,6 +1,6 @@
 package com.megathirio.thekingdom.blocks;
 
-import com.megathirio.thekingdom.items.ModItems;
+import com.megathirio.thekingdom.items.TKItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 /**
  * Created by TheJackyl on 11/9/2015.
  */
-public class ModBlocks {
+public class TKBlocks {
 
     public static Block borniteOre;
     public static Block amethystOre;
@@ -17,8 +17,8 @@ public class ModBlocks {
 
     public static void createBlocks() {
         GameRegistry.registerBlock(borniteOre = new CoreBlock("bornite_ore"), "bornite_ore");
-        GameRegistry.registerBlock(amethystOre = new ModBlockOre("amethyst_ore", Material.rock, ModItems.amethystGem, 1, 4), "amethyst_ore");
-        GameRegistry.registerBlock(berylOre = new ModBlockBerylOre("beryl_ore", Material.rock), "beryl_ore");
-        GameRegistry.registerBlock(teBlock = new ModBlockTileEntity("te_block"), "te_block");
+        GameRegistry.registerBlock(amethystOre = new TKBlockOre("amethyst_ore", Material.rock, TKItems.amethystGem, 1, 4), "amethyst_ore");
+        GameRegistry.registerBlock(berylOre = new BerylOre("beryl_ore", Material.rock), "beryl_ore");
+        GameRegistry.registerBlock(teBlock = new TKBlockTileEntity("te_block"), "te_block");
     }
 }

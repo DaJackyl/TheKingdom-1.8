@@ -1,6 +1,6 @@
 package com.megathirio.thekingdom.guicontainer;
 
-import com.megathirio.thekingdom.tileentities.ModTileEntity;
+import com.megathirio.thekingdom.tileentities.TKTileEntity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IInventory;
@@ -10,9 +10,9 @@ import net.minecraft.item.ItemStack;
 /**
  * Created by TheJackyl on 11/18/2015.
  */
-public class ContainerModTileEntity extends Container {
+public class ContainerTKTileEntity extends Container {
 
-    private ModTileEntity te;
+    private TKTileEntity te;
 
     /*
      * SLOTS:
@@ -21,7 +21,7 @@ public class ContainerModTileEntity extends Container {
      * Player Inventory 9-35 .. 9  - 35
      * Player Inventory 0-8 ... 36 - 44
      */
-    public ContainerModTileEntity(IInventory playerInv, ModTileEntity te) {
+    public ContainerTKTileEntity(IInventory playerInv, TKTileEntity te) {
         this.te = te;
 
         // Tile Entity, Slot 0-8, Slot IDs 0-8

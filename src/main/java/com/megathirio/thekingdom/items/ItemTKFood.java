@@ -1,5 +1,6 @@
 package com.megathirio.thekingdom.items;
 
+import com.megathirio.thekingdom.reference.TKTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
@@ -9,13 +10,14 @@ import net.minecraft.world.World;
 /**
  * Created by TheJackyl on 11/14/2015.
  */
-public class ItemModFood extends ItemFood{
+public class ItemTKFood extends ItemFood{
 
     private PotionEffect[] effects;
 
-    public ItemModFood(String unlocalizedName, int amount, float saturation, boolean isWolfFood, PotionEffect... effects) {
+    public ItemTKFood(String unlocalizedName, int amount, float saturation, boolean isWolfFood, PotionEffect... effects) {
         super(amount, saturation, isWolfFood);
         this.setUnlocalizedName(unlocalizedName);
+        this.setCreativeTab(TKTabs.FOOD_TAB);
         this.effects = effects;
     }
 

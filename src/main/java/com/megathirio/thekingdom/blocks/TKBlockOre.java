@@ -11,14 +11,14 @@ import java.util.Random;
 /**
  * Created by TheJackyl on 11/14/2015.
  */
-public class ModBlockOre extends Block{
+public class TKBlockOre extends Block{
 
     private Item drop;
     private int meta;
     private int least_quantity;
     private int most_quantity;
 
-    protected ModBlockOre(String unlocalizedName, Material material, Item drop, int meta, int least_quantity, int most_quantity) {
+    protected TKBlockOre(String unlocalizedName, Material material, Item drop, int meta, int least_quantity, int most_quantity) {
         super(material);
         this.drop = drop;
         this.meta = meta;
@@ -31,11 +31,11 @@ public class ModBlockOre extends Block{
         this.setCreativeTab(CreativeTabs.tabBlock);
     }
 
-    protected ModBlockOre(String unlocalizedName, Material material, Item drop, int least_quantity, int most_quantity) {
+    protected TKBlockOre(String unlocalizedName, Material material, Item drop, int least_quantity, int most_quantity) {
         this(unlocalizedName, material, drop, 0, least_quantity, most_quantity);
     }
 
-    protected ModBlockOre(String unlocalizedName, Material mat, Item drop) {
+    protected TKBlockOre(String unlocalizedName, Material mat, Item drop) {
         this(unlocalizedName, mat, drop, 1, 1);
     }
 

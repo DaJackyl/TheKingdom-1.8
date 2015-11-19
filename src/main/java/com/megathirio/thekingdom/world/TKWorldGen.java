@@ -1,6 +1,6 @@
 package com.megathirio.thekingdom.world;
 
-import com.megathirio.thekingdom.blocks.ModBlocks;
+import com.megathirio.thekingdom.blocks.TKBlocks;
 import net.minecraft.util.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
@@ -13,16 +13,16 @@ import java.util.Random;
 /**
  * Created by TheJackyl on 11/14/2015.
  */
-public class TheKingdomWorldGen implements IWorldGenerator {
+public class TKWorldGen implements IWorldGenerator {
 
     private WorldGenerator gen_bornite_ore; //Generates Bornite Ore (used in Overworld)
     private WorldGenerator gen_amethyst_ore; //Generates Amethyst Ore (used in Overworld)
     private WorldGenerator gen_beryl_ore; //Generates Beryl Ore (used in Overworld)
 
-    public TheKingdomWorldGen() {
-        this.gen_bornite_ore = new WorldGenMinable(ModBlocks.borniteOre.getDefaultState(), 7);
-        this.gen_amethyst_ore = new WorldGenMinable(ModBlocks.amethystOre.getDefaultState(), 6);
-        this.gen_beryl_ore = new WorldGenSingleMinable(ModBlocks.berylOre.getDefaultState(), 2);
+    public TKWorldGen() {
+        this.gen_bornite_ore = new WorldGenMinable(TKBlocks.borniteOre.getDefaultState(), 7);
+        this.gen_amethyst_ore = new WorldGenMinable(TKBlocks.amethystOre.getDefaultState(), 6);
+        this.gen_beryl_ore = new WorldGenSingleMinable(TKBlocks.berylOre.getDefaultState(), 2);
     }
 
     @Override

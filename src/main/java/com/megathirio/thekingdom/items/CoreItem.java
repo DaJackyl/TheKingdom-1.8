@@ -1,5 +1,6 @@
 package com.megathirio.thekingdom.items;
 
+import com.megathirio.thekingdom.reference.TKTabs;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
@@ -11,6 +12,6 @@ public class CoreItem extends Item{
         super();
 
         this.setUnlocalizedName(unlocalizedName);
-        this.setCreativeTab(CreativeTabs.tabMaterials);
+        this.setCreativeTab(TKTabs.ITEMS_TAB);
     }
 }

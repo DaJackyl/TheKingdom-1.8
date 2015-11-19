@@ -1,6 +1,6 @@
 package com.megathirio.thekingdom.client.render.blocks;
 
-import com.megathirio.thekingdom.blocks.ModBlocks;
+import com.megathirio.thekingdom.blocks.TKBlocks;
 import com.megathirio.thekingdom.reference.Core;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -15,10 +15,10 @@ public class BlockRenderRegister {
     public static String modid = Core.MOD_ID;
 
     public static void registerBlockRenderer() {
-        reg(ModBlocks.borniteOre);
-        reg(ModBlocks.berylOre);
-        reg(ModBlocks.amethystOre);
-        reg(ModBlocks.teBlock);
+        reg(TKBlocks.borniteOre);
+        reg(TKBlocks.berylOre);
+        reg(TKBlocks.amethystOre);
+        reg(TKBlocks.teBlock);
     }
 
     public static void reg(Block block) {

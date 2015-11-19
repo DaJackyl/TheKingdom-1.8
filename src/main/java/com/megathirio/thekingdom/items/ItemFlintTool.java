@@ -2,6 +2,7 @@ package com.megathirio.thekingdom.items;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;
+import com.megathirio.thekingdom.reference.TKTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDirt;
 import net.minecraft.block.state.IBlockState;
@@ -27,6 +28,7 @@ public class ItemFlintTool extends ItemPickaxe{
     public ItemFlintTool(String unlocalizedName, ToolMaterial material) {
         super(material);
         this.setUnlocalizedName(unlocalizedName);
+        this.setCreativeTab(TKTabs.TOOLS_TAB);
     }
 
     @Override

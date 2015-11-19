@@ -19,12 +19,12 @@ import net.minecraft.world.World;
 /**
  * Created by TheJackyl on 11/16/2015.
  */
-public class ModTileEntity extends TileEntity implements IInventory {
+public class TKTileEntity extends TileEntity implements IInventory {
 
     private ItemStack[] inventory;
     private String customName;
 
-    public ModTileEntity() {
+    public TKTileEntity() {
         this.inventory = new ItemStack[this.getSizeInventory()];
     }
 

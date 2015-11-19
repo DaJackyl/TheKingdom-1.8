@@ -1,6 +1,6 @@
 package com.megathirio.thekingdom.client.render.items;
 
-import com.megathirio.thekingdom.items.ModItems;
+import com.megathirio.thekingdom.items.TKItems;
 import com.megathirio.thekingdom.reference.Core;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -12,25 +12,25 @@ import net.minecraft.item.Item;
 public class ItemRenderRegister {
 
     public static void registerItemRenderer() {
-        reg(ModItems.copperIngot);
-        reg(ModItems.amethystGem);
-        reg(ModItems.aquamarineGem);
-        reg(ModItems.scarletEmeraldGem);
+        reg(TKItems.copperIngot);
+        reg(TKItems.amethystGem);
+        reg(TKItems.aquamarineGem);
+        reg(TKItems.scarletEmeraldGem);
 
-        reg(ModItems.copperPickaxe);
-        reg(ModItems.copperAxe);
-        reg(ModItems.copperHoe);
-        reg(ModItems.copperSpade);
-        reg(ModItems.copperSword);
-        reg(ModItems.flintTool);
+        reg(TKItems.copperPickaxe);
+        reg(TKItems.copperAxe);
+        reg(TKItems.copperHoe);
+        reg(TKItems.copperSpade);
+        reg(TKItems.copperSword);
+        reg(TKItems.flintTool);
 
-        reg(ModItems.copperChestplate);
-        reg(ModItems.copperHelmet);
-        reg(ModItems.copperLeggings);
-        reg(ModItems.copperBoots);
+        reg(TKItems.copperChestplate);
+        reg(TKItems.copperHelmet);
+        reg(TKItems.copperLeggings);
+        reg(TKItems.copperBoots);
 
-        reg(ModItems.curedBeef);
-        reg(ModItems.curedPork);
+        reg(TKItems.curedBeef);
+        reg(TKItems.curedPork);
     }
 
     public static String modid = Core.MOD_ID;

@@ -1,6 +1,6 @@
 package com.megathirio.thekingdom.blocks;
 
-import com.megathirio.thekingdom.items.ModItems;
+import com.megathirio.thekingdom.items.TKItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -15,9 +15,9 @@ import java.util.ArrayList;
 /**
  * Created by TheJackyl on 11/14/2015.
  */
-public class ModBlockBerylOre extends Block{
+public class BerylOre extends Block{
 
-    protected ModBlockBerylOre(String unlocalizedName, Material material) {
+    protected BerylOre(String unlocalizedName, Material material) {
         super(material);
         this.setUnlocalizedName(unlocalizedName);
         this.setCreativeTab(CreativeTabs.tabBlock);
@@ -30,9 +30,9 @@ public class ModBlockBerylOre extends Block{
     @Override
     public ArrayList getDrops(IBlockAccess world, BlockPos pos, IBlockState blockstate, int fortune) {
         ArrayList drops = new ArrayList();
-        drops.add(new ItemStack(ModItems.aquamarineGem, RANDOM.nextInt(4) + 1));
+        drops.add(new ItemStack(TKItems.aquamarineGem, RANDOM.nextInt(4) + 1));
         if (RANDOM.nextFloat() < 0.1F)
-            drops.add(new ItemStack(ModItems.scarletEmeraldGem, RANDOM.nextInt(2) + 1));
+            drops.add(new ItemStack(TKItems.scarletEmeraldGem, RANDOM.nextInt(2) + 1));
         if (RANDOM.nextFloat() < 0.2F)
             drops.add(new ItemStack(Items.emerald, RANDOM.nextInt(2) + 1));
         return drops;
